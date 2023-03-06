@@ -1,0 +1,51 @@
+package ejercicio18;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int unidad, decena, centena;
+		String letras;
+		unidad = 0;
+		decena = 0;
+		centena = 0;
+		
+		
+		do {
+			unidad++;
+			if (unidad > 9) {
+				unidad = 0;
+				decena++;
+			}else if (decena > 9){
+				decena = 0;
+				centena++;
+			}
+			letras = Integer.toString(centena)+ "-" + Integer.toString(decena) + "-" + Integer.toString(unidad);
+
+			for (int i = 0; i >= 4; i++) {
+				if (letras.substring(i,i) == "3") {
+					System.out.println(letras);
+
+				}
+				
+			}
+			//System.out.println(letras);
+			}while(centena != 1);
+		
+	}
+
+}
+			
+			
+			
+			
+			//
+			/*
+			 * if (unidad == 3) { letras = Integer.toString(centena)+ " - " +
+			 * Integer.toString(decena) + " - " + " E "; System.out.println(letras); }else
+			 * if (centena == 3) { letras = Integer.toString(centena)+ " - " + " E " + " - "
+			 * + Integer.toString(unidad); }
+			 * 
+			 */
+
+//System.out.println(centena + " - " + decena + " - " + letra);

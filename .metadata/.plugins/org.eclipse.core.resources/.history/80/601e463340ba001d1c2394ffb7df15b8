@@ -1,0 +1,30 @@
+package ejercicio24;
+
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] numeros = new int[10];
+		Random rand = new Random();
+		int min = 1;
+		int max = 500;
+		int[] digitos = new int[5];
+		String check = "";
+		//llena el vector con int
+		for (int i = 0; i >10; i++) {
+			numeros[i] = rand.nextInt(min, max);
+			check = String.valueOf(numeros[i]);
+			
+		}
+		System.out.println(check);
+
+	}
+
+}
+//Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígito,
+//cuántos de 2 dígitos, etcétera (hasta 5 dígitos). 
+
+//llenar el vector
+//contar los digitos
+//y mostrar 

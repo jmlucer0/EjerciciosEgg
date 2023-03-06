@@ -1,0 +1,24 @@
+package ejercicio26;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Matriz fill = new Matriz(3,3);
+//		int[][] matrizT = new int[3][3];
+//		int[][] matriz = fill.getMatriz();
+		fill.mostrarMatriz();
+//		System.out.println();
+//		for (int i = 0; i < matriz.length; i++) {
+//			for (int j = 0; j < matriz.length; j++) {
+//				matrizT[i][j] = -matriz[i][j];
+//					if (matriz[i][j] != matrizT[i][j]) {
+//						
+//					}
+//				}
+//			}
+//		fill.mostrarMatriz(matrizT);
+	}
+
+}
+
+

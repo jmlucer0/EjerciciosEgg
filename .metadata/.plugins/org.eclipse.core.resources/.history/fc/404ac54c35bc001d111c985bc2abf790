@@ -1,0 +1,34 @@
+package ejercicio26;
+
+public class Fill {
+
+	private int[][] matriz;
+
+	public Fill(int filas, int columnas) {
+		matriz = new int[filas][columnas];
+
+	}
+
+	// llena matriz
+	public void llenarMatriz() {
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz.length; j++)
+				matriz[i][j] = (int) (Math.random() * 19) - 9;
+		}
+	}
+
+	// devuvelve la matriz llena
+	public int[][] getMatriz() {
+		return matriz;
+	}
+
+	// muestra matriz
+	public void mostrarMatriz(int[][] matriz) {
+		for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print("|" + matriz[i][j] + " ");
+            }
+            System.out.println(); 
+        }
+		
+}

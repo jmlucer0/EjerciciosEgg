@@ -1,0 +1,23 @@
+INDEX VERSION 1.131+C:\Users\Monaldo\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+2222070604.index
+1865797976.index
+1829879417.index
+4095274947.index
+437685999.index
+1023986624.index
+4084542426.index
+2326369150.index
+557603202.index
+1095838115.index
+2192992742.index
+3744840704.index
+2942257295.index
+4256080872.index
+2199904085.index
+3629676569.index
+3046146480.index
+2821885078.index
+826006828.index
+1786542688.index
+2250130128.index
+494619382.index

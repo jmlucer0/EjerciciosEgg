@@ -1,0 +1,22 @@
+package ejercicio17;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String cadena;
+		System.out.println("Ingrese una palabra");
+		cadena = sc.next();
+		if (cadena.substring(0, (cadena.lenght()-1)).equalsIgnoreCase("o")) {
+		System.out.println("anda");
+		//}
+		//if (cadena.substring(0, 1).equalsIgnoreCase("x") && (cadena.length() <= 5)) {
+		//	System.out.println("anda");
+		}
+		
+		sc.close();
+	}
+	
+}

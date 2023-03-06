@@ -1,0 +1,14 @@
+package ejercicio26;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Fill fill = new Fill(3,3);
+		fill.llenarMatriz();
+		int[][] matriz = fill.getMatriz();
+		Show mostrarMatriz = new Show();
+		mostrarMatriz.mostrarMatriz();
+
+	}
+
+}
