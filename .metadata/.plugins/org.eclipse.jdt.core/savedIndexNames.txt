@@ -7,7 +7,6 @@ INDEX VERSION 1.131+C:\Users\Monaldo\eclipse-workspace\.metadata\.plugins\org.ec
 1023986624.index
 4084542426.index
 1178398138.index
-3959137331.index
 2326369150.index
 557603202.index
 1095838115.index

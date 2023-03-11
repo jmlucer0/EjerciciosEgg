@@ -8,7 +8,7 @@ public class Matriz {
 	// atributos
 	private int[][] matriz;
 	private int[][] matrizT;
-
+	
 	// constructor: contruis el objetos con los atributos necesarios
 
 	public Matriz(int filas, int columnas) {
@@ -168,4 +168,12 @@ public class Matriz {
 			sc.close();
 			System.out.println("La matriz esta llena");
 		}
+		
+		//bucador de matriz, dentro de matriz
+		public void matrizToArray() {
+			for (int i = 0; i < this.matriz.length; i++) {
+				for (int j = 0; j < this.matriz[0].length; j++) {
+				}
+			}
+		}	
 }

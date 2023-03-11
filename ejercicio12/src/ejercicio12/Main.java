@@ -6,14 +6,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num;
+		int motor;
 
 		do {
 			System.out.println("Ingrese un numero del 1 al 4");
-			num = sc.nextInt();
+			motor = sc.nextInt();
 
 			
-			switch (num) {
+			switch (motor) {
 			case 1:
 				System.out.println("1 - Bomba de agua");
 				break;
@@ -31,7 +31,7 @@ public class Main {
 				System.out.println("");
 			}
 
-		} while (num > 4);
+		} while (motor > 4);
 		sc.close();
 	}
 
